@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;500;800&display=swap&#39;');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #F0FFFF;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: gap;
+}
+
+nav{
+  height: 50px;
+  background-color: deepskyblue;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+a{
+ text-decoration: none;
+ color: white;
+}
+a:hover{
+  border-bottom: 4px solid black;
+  transition: 0.3s all;
+  border-radius: 2px;
+  transform: scale(1.1);
+}
+.btn{
+  background-color: cyan;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
